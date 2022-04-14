@@ -3,6 +3,9 @@ import { useState ,useEffect} from 'react';
 import Post from './Post/Post';
 import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import RadarIcon from '@mui/icons-material/Radar';
+
+
+
 const Postview=()=> {
 const [posts,setPosts]=useState([]);
 const setPostsAsync=async()=> {
